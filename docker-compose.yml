@@ -1,0 +1,16 @@
+services:
+  modulo_entrada:
+    build: .
+    container_name: reto1_ingesta
+    ports:
+      - "8000:8000"
+    environment:
+      # Si usas LM Studio, apunta al host gateway
+      - LLM_BASE_URL=http://host.docker.internal:1234/v1
+      - LLM_API_KEY=lm-studio
+      
+      # Si en el futuro usas OpenAI, solo cambias esto aquí:
+      # - LLM_BASE_URL=https://api.openai.com/v1
+      # - LLM_API_KEY=sk-tu-token-real-aqui
+    extra_hosts:
+      - "host.docker.internal:host-gateway" # CRUCIAL PARA LINUX
