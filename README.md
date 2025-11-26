@@ -1,4 +1,5 @@
-Proyecto: Descrito en el pdf adjunto
+Proyecto: Descrito en el pdf adjunto: Sofware Inteligente.pdf
+
 
 El proyecto sera resuelto en 4 Micro Retos:
 1. Micro Reto 1: Módulo de Entrada (El Oído)
@@ -29,13 +30,13 @@ Docker: Todo debe correr en contenedores. Un contenedor para el API, otro para l
 CI/CD: Tener un archivo (ej. GitHub Actions) que demuestre que si subes código, se hacen pruebas automáticas.
 Persistencia: Guardar los reportes generados en una base de datos.
 
-1.Micro Reto 1: Módulo de Entrada (El Oído)
-¿Cómo ejecutarlo?
-Enciende LM Studio:
-Carga un modelo ligero (ej. Mistral o Llama 3 8B).
-Ve a la pestaña de "Server" (doble flecha) -> Start Server.
-Asegúrate de que corra en el puerto 1234.
+1.Micro Reto 1: Módulo de Entrada (El Oído)  
+¿Cómo ejecutarlo?  
+Enciende LM Studio:  
+Carga un modelo ligero (ej. Mistral o Llama 3 8B).  
+Ve a la pestaña de "Server" (doble flecha) -> Start Server.  
+Asegúrate de que corra en el puerto 1234.  
 
-Levanta el Docker:
-Abre tu terminal en la carpeta micro_reto_1 y ejecuta:
-docker compose up --build
+Levanta el Docker:  
+Abre tu terminal en la carpeta micro_reto_1 y ejecuta:  
+docker compose up --build  
